@@ -5,3 +5,11 @@ body {
 h4 {
     margin-top: 30px;
 }
+
+.card-img {
+    margin: 10px;
+}
+
+.card-body {
+    margin: 10px;
+}
