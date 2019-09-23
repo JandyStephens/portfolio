@@ -1,10 +1,12 @@
 body {
   background-color: #202062;
   color: aliceblue;
+  font-family: "Bree Serif", serif;
 }
 
 h4 {
   margin-top: 30px;
+  font-family: "Bree Serif", serif;
 }
 
 .card-img {
@@ -15,6 +17,7 @@ h4 {
   margin: 10px;
   color: aliceblue;
   background: transparent;
+  font-family: "Bree Serif", serif;
 }
 
 /* for animated background */
