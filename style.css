@@ -37,6 +37,11 @@ canvas {
   position: fixed;
 }
 
+.icon-right {
+  float:right;
+  margin-top: 8px;
+}
+
 /* .nav-item {
   color: aliceblue;
 } */
@@ -62,9 +67,10 @@ canvas {
   
   display: inline-block !important;
   font: 700 13px/36px 'Arial', Helvetica, Clean, sans-serif;
-  height: 26px;
+  /* height: 18px; */
+  font-size: 18px;
   margin: 0 0 10px;
-  padding: 0 10px 11px;
+  padding: 0 10px;
   position: relative;
   text-decoration: none;
   text-shadow: 0 1px 1px rgba(255,255,255,.35);
@@ -79,7 +85,7 @@ a.s3d:hover {
   margin-left: -10px;
 }
 
-a.s3d:active { transform: translateX(200px); }
+/* a.s3d:active { transform: translateX(200px); } */
 
 /* Dribbble */
  a.dribbble {
