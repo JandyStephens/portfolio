@@ -8,11 +8,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="bsport.css" />
+  <link rel="stylesheet" href="../style.css" />
   <title>Document</title>
 </head>
 
 <body>
+
+  <!-- Nav bar -->
   <nav class="navbar navbar-expand-lg navbar-warning bg-light">
     <a class="navbar-brand" href="#">Jandy Stephens</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -51,51 +53,61 @@
     </div>
   </nav>
 
-  <div class="card-deck">
-    <div class="card">
-      <img src="images/send-care-screenshot.png" class="card-img-top" alt="send care MEOW landing page" />
-      <div class="card-body">
-        <a href="https://jandystephens.github.io/Send-Care-MEOW/" class="card-title">Send Care, MEOW!</a>
-      </div>
+  <h4 style="text-align: center">Contact Me</h4>
+
+  <form style="margin: 0px 25% 0px 25%">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Name</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your name" />
     </div>
-    <div class="card">
-      <img src="images/trivia-screenshot.png" class="card-img-top" alt="trivia game" />
-      <div class="card-body">
-        <a href="https://jandystephens.github.io/Trivia-Game/" class="card-title">Trivia Game</a>
-      </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
     </div>
 
-    <div class="card">
-      <img src="images/crystal screenshot.png" class="card-img-top" alt="crystal collector screenshot" />
-      <div class="card-body">
-        <a href="https://jandystephens.github.io/unit-4-game/crystalcollector.html" class="card-title">Crystal Collector
-          Game</a>
-      </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">
+Write message here...</textarea>
     </div>
-    <div class="card">
-      <img src="images/friend-finder-img.png" class="card-img-top" alt="friend finder" />
-      <div class="card-body">
-        <a href="https://jandystephens.github.io/Friend-Finder/" class="card-title">Friend Finder Questionaire</a>
-      </div>
-    </div>
-    <div class="card">
-      <img src="images/meme word guess screenshot.png" class="card-img-top" alt="nyan cat" />
-      <div class="card-body">
-        <a href="https://jandystephens.github.io/Word-Guess-Game/" class="card-title">Meme Word Guess Game</a>
-      </div>
-    </div>
+    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+  </form>
+
+
+  <!-- Social media buttons -->
+  <div id="container">
+    <a href="#" class="s3d dribbble">
+      Dribbble
+      <span class="icons dribbble"></span>
+    </a>
+
+    <a href="#" class="s3d twitter">
+      Twitter
+      <span class="icons twitter"></span>
+    </a>
+
+    <a href="#" class="s3d facebook">
+      Facebook
+      <span class="icons facebook"></span>
+    </a>
+
+    <a href="#" class="s3d forrst">
+      Forrst
+      <span class="icons forrst"></span>
+    </a>
+
+    <a href="#" class="s3d designmoo">
+      Designmoo
+      <span class="icons designmoo"></span>
+    </a>
+
+    <a href="#" class="s3d flickr">
+      Flickr
+      <span class="icons flickr"></span>
+    </a>
   </div>
-  <div class="card">
-    <img src="images/collexion.PNG" class="card-img-top" alt="collexion website" />
-    <div class="card-body">
-      <a href="https://collexion-p2.herokuapp.com/" class="card-title">Collexion Website</a>
-    </div>
-  </div>
 
-  <footer class="fixed-bottom navbar-warning bg-light" style="text-align:center" ;>
-    Copyright®
-  </footer>
-
+  <!-- JS script links -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -105,6 +117,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+  <!-- Footer -->
+  <div class="fixed-bottom navbar-warning bg-light" style="text-align:center" ;>
+    Copyright®
+  </div>
 
   <!-- for background -->
   <div id="game-wrapper"></div>
