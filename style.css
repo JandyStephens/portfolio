@@ -18,6 +18,7 @@ h4 {
   color: aliceblue;
   background: transparent;
   font-family: "Bree Serif", serif;
+  border-color: aliceblue;
 }
 
 /* for animated background */
@@ -43,7 +44,7 @@ canvas {
 }
 
 /* .nav-item {
-  color: aliceblue;
+  color: aliceblue; 
 } */
 
 /* ----------------------------------------- */
@@ -188,3 +189,9 @@ a.flickr:active {
 .icons.designmoo { background-position: -100px 0 }
 
 .icons.flickr { background-position: -125px 0 }  
+
+@media screen and (max-width: 600px){
+  .column {
+    width: 100%;
+  }
+}
