@@ -1,6 +1,6 @@
 body {
   background-color: #202062;
-  color: aliceblue;
+  /* color: aliceblue; */
   font-family: "Bree Serif", serif;
 
 }
@@ -16,7 +16,7 @@ h4 {
 
 .card-body {
   margin: 10px;
-  color: aliceblue;
+  /* color: aliceblue; */
   background: transparent;
   font-family: "Bree Serif", serif;
   border-color: aliceblue;
@@ -29,13 +29,18 @@ h4 {
 .card-text {
   padding: 0%;
   font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .card {
 padding-top: 15px;
 padding-bottom: 15px;
 } 
+
+.description-text{
+  font: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 footer a.s3d {
   margin: 10px;
