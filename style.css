@@ -1,13 +1,15 @@
 body {
   background-color: #202062;
   /* color: aliceblue; */
-  font-family: "Bree Serif", serif;
+  /* font-family: "Bree Serif", serif;   */
+  font-family: 'Gayathri', sans-serif;
 
 }
 
 h4 {
   margin-top: 30px;
-  font-family: "Bree Serif", serif;
+  /* font-family: "Bree Serif", serif; */
+  font-family: 'Gayathri', sans-serif;
 }
 
 .card-img {
@@ -18,7 +20,8 @@ h4 {
   margin: 10px;
   /* color: aliceblue; */
   background: transparent;
-  font-family: "Bree Serif", serif;
+  /* font-family: "Bree Serif", serif;*/
+  font-family: 'Gayathri', sans-serif;
   border-color: aliceblue;
 }
 
@@ -29,7 +32,8 @@ h4 {
 .card-text {
   padding: 0%;
   font-size: 30px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-family: 'Gayathri', sans-serif;
 }
 
 .card {
@@ -40,7 +44,8 @@ background-color: antiquewhite;
 
 .description-text{
   font: black;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-family: 'Gayathri', sans-serif;
 }
 
 footer a.s3d {
@@ -89,7 +94,7 @@ canvas {
   box-shadow:0 4px 5px rgba(0,0,0,.3);
   
   display: inline-block !important;
-  font: 700 13px/36px 'Arial', Helvetica, Clean, sans-serif;
+  /* font: 700 13px/36px 'Arial', Helvetica, Clean, sans-serif; */
   /* height: 18px; */
   font-size: 18px;
   margin: 0 0 10px;
