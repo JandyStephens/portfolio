@@ -1,8 +1,11 @@
 body {
-  background-color: #202062;
+  /* background-color: #202062; */
   /* color: aliceblue; */
-  /* font-family: "Bree Serif", serif;   */
-  font-family: 'Gayathri', sans-serif;
+  /*effects Navbar*/
+    font-family: 'Gayathri', sans-serif;
+/* font-family: 'Merienda One', cursive; */
+/* font-family: 'Montserrat Subrayada', sans-serif; */
+/* font-family: 'Oleo Script', cursive; */
 
 }
 
@@ -14,6 +17,11 @@ h4 {
 
 .card-img {
   margin: 10px;
+}
+
+.container{
+  margin-top: 65px;
+  margin-bottom: 65px;
 }
 
 .card-body {
