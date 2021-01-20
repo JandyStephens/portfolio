@@ -17,12 +17,26 @@ h4 {
   margin-bottom: 65px;
 }
 
-.card-body {
-  margin: 10px;
+/* affects splash page big name */
+.splash-card-body {
+  /* margin: 10px; */
   color: rgb(175, 11, 131);
   background: transparent;
   font-family: 'Gayathri', sans-serif;
-  /* border-color: aliceblue; */
+  text-align:center;
+  border-style: double none double none;
+  max-width: 740px; 
+  margin: 250px 0px 0px 150px;
+}
+
+.card-body {
+  /* margin: 10px; */
+  color: rgb(175, 11, 131);
+  background: transparent;
+  font-family: 'Gayathri', sans-serif;
+  text-align:center;
+  border-style: double none double none;
+  /* max-width: 740px;  */
 }
 
 .tag-line {
