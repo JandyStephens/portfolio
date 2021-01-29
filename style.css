@@ -8,8 +8,16 @@ h4 {
   font-family: 'Gayathri', sans-serif;
 }
 
+footer a {
+  padding: 5px;
+}
+
 #about {
   text-align: center;
+}
+
+#linked-in-icon {
+  height: 32px;
 }
 
 .card-img {
