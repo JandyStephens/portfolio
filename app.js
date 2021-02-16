@@ -2,10 +2,10 @@
 
 // Let's put our settings up top so we can change them easily
 let settings = {
-  spotlightRadius: 400,
-  boxCount: 50,
-  moveSpeed: 1,
-  turboSpeed: 5
+  spotlightRadius: 350,
+  boxCount: 35,
+  moveSpeed: .5,
+  turboSpeed: 3
 };
 
 // Let's define our states, there's only one in this game at the moment
@@ -18,7 +18,7 @@ function state(s) {
     // Add our UI
     let wrapper = document.querySelector("body");
     // update light position
-    wrapper.addEventListener("mousemove", function(e) {
+    wrapper.addEventListener("mousemove", function (e) {
       app.universe.light.position.x = e.clientX * window.devicePixelRatio;
       app.universe.light.position.y = e.clientY * window.devicePixelRatio;
     });
@@ -401,7 +401,7 @@ class Light {
 }
 
 // on load, start our initialization state
-window.onload = function() {
+window.onload = function () {
   state("init");
   // followMe("init");
 };
