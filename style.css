@@ -1,6 +1,6 @@
 body {
-  /*effects Navbar*/
   font-family: "Gayathri", sans-serif;
+  padding-bottom: 65px;
 }
 
 h4 {
@@ -9,11 +9,9 @@ h4 {
 }
 
 #footer-icons {
-  margin: 10px 5px 10px 0px;
-}
-
-footer a {
-  padding: 5px;
+  margin: 5px 0px 5px 0px;
+  color: #fff;
+  border-color: rgb(175, 11, 131);
 }
 
 #about {
@@ -29,19 +27,19 @@ footer a {
 }
 
 .container {
-  margin-top: 65px;
-  margin-bottom: 65px;
+  padding-top: 3px;
 }
 
 /* affects splash big name */
-.splash-card-body {
+.name-splash-card-body {
   color: rgb(175, 11, 131);
   background: transparent;
   font-family: "Gayathri", sans-serif;
   text-align: center;
-  border-style: double none double none;
+  border-style: double none;
   max-width: 740px;
-  margin: auto;
+  margin: 200px auto;
+  padding-top: 3%;
 }
 
 .card-body {
@@ -49,19 +47,19 @@ footer a {
   background: transparent;
   font-family: "Gayathri", sans-serif;
   text-align: center;
-  border-style: double none double none;
+  border-style: double none;
 }
 
-.tag-line {
+.name-splash {
   font-size: 100px;
-  color: lavenderblush;
+  color: #fff;
 }
 
 .card-text {
   padding: 0%;
   font-size: 30px;
   font-family: "Gayathri", sans-serif;
-  color: aliceblue;
+  color: #fff;
 }
 
 #nav-hover:hover {
@@ -71,16 +69,12 @@ footer a {
 .card {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: lavender;
+  background-color: #fff;
 }
 
 .description-text {
   font: black;
   font-family: "Gayathri", sans-serif;
-}
-
-footer a.s3d {
-  margin: 10px;
 }
 
 /* for animated background */
